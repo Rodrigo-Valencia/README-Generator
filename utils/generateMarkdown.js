@@ -1,6 +1,6 @@
 function generateMarkdown(data) {
   return `
-  <h1 align="center">${data.prjectTitle}</h1>
+  # ${data.projectTitle}
 
   ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)<br />
 
@@ -8,13 +8,13 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents
-  - [Description](#description)
-  - [Insallation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
+  * [Description](#description)
+  * [Insallation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
   ## Installation
   ${data.installation}
@@ -23,7 +23,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  ! [badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
+  ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
   
 
   ## Contributing 
@@ -32,11 +32,9 @@ function generateMarkdown(data) {
   ## Tests
   ${data.tests}
 
-  ## Questions
-  ${data.questions}<br />
-  
-  Find me on GitHub: [${data.username}](https://github.com/${data.username})<br />
-  Email me with any questions: ${data.email}<br />
+  ### Questions
+  * Find me on GitHub: [${data.username}](https://github.com/${data.username})<br />
+  * Email me with any questions: ${data.email}<br />
 
 `;
 }
