@@ -11,11 +11,11 @@ function promptUser() {
             type: "input",
             name: "projectTitle",
             message: "What is the project title?",
-            validate: nameInput => {
-                if (nameInput) {
+            validate: projectTitleInput => {
+                if (projectTitleInput) {
                     return true;
                 } else {
-                    console.log("Does this work?");
+                    console.log("Please type a project title!");
                     return false;
                 }
             }
@@ -28,7 +28,7 @@ function promptUser() {
                 if (descriptionInput) {
                     return true;
                 } else {
-                    console.log("Does this work?");
+                    console.log("Please type a project title!");
                     return false;
                 }
             }
@@ -41,7 +41,7 @@ function promptUser() {
                 if (installationInput) {
                     return true;
                 } else {
-                    console.log("Does this work?");
+                    console.log("Please type a project title!");
                     return false;
                 }
             }
@@ -54,7 +54,7 @@ function promptUser() {
                 if (usageInput) {
                     return true;
                 } else {
-                    console.log("Does this work?");
+                    console.log("Please type a project title!");
                     return false;
                 }
             }
@@ -68,7 +68,7 @@ function promptUser() {
                 if (licenseInput) {
                     return true;
                 } else {
-                    console.log("Does this work?");
+                    console.log("Please type a project title!");
                     return false;
                 }
             }
@@ -81,7 +81,7 @@ function promptUser() {
                 if (contributingInput) {
                     return true;
                 } else {
-                    console.log("Does this work?");
+                    console.log("Please type a project title!");
                     return false;
                 }
             }
@@ -94,7 +94,7 @@ function promptUser() {
                 if (testsInput) {
                     return true;
                 } else {
-                    console.log("Does this work?");
+                    console.log("Please type a project title!");
                     return false;
                 }
             }
@@ -107,7 +107,7 @@ function promptUser() {
                 if (usernameInput) {
                     return true;
                 } else {
-                    console.log("Does this work?");
+                    console.log("Please type a project title!");
                     return false;
                 }
             }
@@ -120,7 +120,7 @@ function promptUser() {
                 if (emailInput) {
                     return true;
                 } else {
-                    console.log("Does this work?");
+                    console.log("Please type a project title!");
                     return false;
                 }
             }

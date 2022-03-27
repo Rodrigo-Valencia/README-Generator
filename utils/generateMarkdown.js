@@ -1,6 +1,6 @@
 function generateMarkdown(data) {
   return `
-  <h1 align="center">${data.prjectTitle} </h1>
+  <h1 align="center">${data.prjectTitle}</h1>
 
   ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)<br />
 
@@ -33,9 +33,10 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  ${data.questions}
-
-  Email me with any questions: ${data.email}
+  ${data.questions}<br />
+  
+  Find me on GitHub: [${data.username}](https://github.com/${data.username})<br />
+  Email me with any questions: ${data.email}<br />
 
 `;
 }
