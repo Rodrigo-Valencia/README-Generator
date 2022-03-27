@@ -128,4 +128,16 @@ function promptUser() {
     ]);
 }
 
-promptUser()
+async function init() {
+    try {
+        const data = await promptUser();
+        const generateContent = createREADME(data);
+
+        await writeFileAsync('./dist/README.md', generateContent);
+        console.log("Successfully created README.md");
+    } catch(err) {
+        console.log(err);
+    }
+}
+
+init()
