@@ -4,7 +4,7 @@
   ![badge](https://img.shields.io/badge/license-Open-brightgreen)<br />
 
   ## Description
-  A generator that dynamically produces a high-quality ReadMe file directly from the command line. 
+  A generator that dynamically produces a high-quality ReadMe file directly from the command line.
 
   ## Table of Contents
   * [Description](#description)
