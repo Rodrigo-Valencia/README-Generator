@@ -11,4 +11,4 @@ A generator that dynamically produces a high-quality ReadMe file directly from t
 * Use string literals to dynamically generate markdown form the command line. 
 
 ### Reference 
-![Screenshot of index.js]()
+![Screenshot of index.js](./img/Screenshot-Node%20ReadME.png)
